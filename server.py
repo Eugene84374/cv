@@ -8,7 +8,7 @@ def home():
 
 @app.route('/picorp')
 def applink():
-    return render_template("picorp.html") 
+    return "Hello World!"
 
 
 if __name__ == "__main__":
